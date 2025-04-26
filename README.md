@@ -166,7 +166,7 @@
 - Power Law is a distribution that is not normal.
 - Graph:
   $$
-  P(x) =  1 / x^2
+  P(x) = \frac{1}{x^2}
   $$
 
 ## Social Capital
