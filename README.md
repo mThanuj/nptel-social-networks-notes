@@ -33,6 +33,11 @@
 - Predicting what will the current page will link to next.
 - Link Prediction is done with Jaccard Similarity Index.
 
+### Web Graph Model
+
+- Nodes: Web Pages.
+- Edges: Hyperlinks Between Pages.
+
 ### Grivan-Newman Algorithm
 
 - Used to find communities in a graph.
@@ -47,17 +52,27 @@
   - The degree of existing nodes.
   - The relative fitness of new nodes.
 
-## Granovetter's Theory
+### Granovetter's Theory
 
 - Weak ties are more important than strong ties.
 - Strong ties are usually friends and family.
 - Weak ties are acquaintances.
 - We can get more information from weak ties than strong ties.
 
-## Web Graph Model
+### Spatial Segregation
 
-- Nodes: Web Pages.
-- Edges: Hyperlinks Between Pages.
+- The tendency of individuals to associate with others who are similar to them in some way.
+
+### Shelling's Model
+
+- A model that simulates the segregation of individuals in a social network.
+- It is based on the idea that individuals have a preference for living near others who are similar to them.
+- The individual WILL move if they are not satisfied with their current location.
+- Steps:
+  - Randomly place individuals in a grid.
+  - Allow individuals to move to different locations based on their preferences.
+  - Repeat until no one wants to move.
+- Local decision making will lead to global segregation.
 
 ## Closures
 
@@ -68,6 +83,10 @@
 ### Foci Closure
 
 - When two people have a common activity, they are likely to become friends.
+
+### Structural Closure
+
+- When one person has an activity, he makes his friend join the activity.
 
 ## Neighborhood Overlap
 
