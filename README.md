@@ -165,9 +165,9 @@
 - Bell Curve only works when it is a sum of many random variables.
 - Power Law is a distribution that is not normal.
 - Graph:
-  $
+  $$
   P(x) =  1 / x^2
-  $
+  $$
 
 ## Social Capital
 
