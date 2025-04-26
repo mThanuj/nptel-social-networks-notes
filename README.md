@@ -27,6 +27,9 @@
 ### Page Rank Algorithm
 
 - Pages that are linked to more often are more important.
+- Degree Rank vs Page Rank:
+  - Degree Rank: Number of links to a page.
+  - Page Rank: Importance of the page based on the number of links to it and the importance of the pages linking to it.
 
 #### Link Prediction
 
@@ -114,6 +117,17 @@
 - Onlt two structurally balanced states are possible:
   - All positives.
   - Positive- Negative -Positive.
+
+### Linear Threshold Model
+
+- It captures the diffusion of information in a social network.
+- Each node has a threshold.
+- When the number of neighbors that are active exceeds the threshold, the node becomes active.
+
+### Principle of Repeated Improvement
+
+- The idea that individuals in a social network will continue to improve their connections until they reach a stable state.
+- A points to B, if A gains popularity, B will also gain popularity and vice versa.
 
 ## Closures
 
