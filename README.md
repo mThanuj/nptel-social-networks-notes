@@ -104,6 +104,12 @@
   - Repeat until no one wants to move.
 - Local decision making will lead to global segregation.
 
+#### Linear Threshold Model
+
+- It captures the diffusion of information in a social network.
+- Each node has a threshold.
+- When the number of neighbors that are active exceeds the threshold, the node becomes active.
+
 ### Structural Balance Theory
 
 - I have two friends, and they dont like each other.
@@ -114,15 +120,9 @@
 
 - Only two sides will be present when fighting.
 - When another is added, they will be forced to choose a side.
-- Onlt two structurally balanced states are possible:
+- Only two structurally balanced states are possible:
   - All positives.
   - Positive- Negative -Positive.
-
-### Linear Threshold Model
-
-- It captures the diffusion of information in a social network.
-- Each node has a threshold.
-- When the number of neighbors that are active exceeds the threshold, the node becomes active.
 
 ### Principle of Repeated Improvement
 
