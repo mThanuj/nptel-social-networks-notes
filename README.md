@@ -37,6 +37,32 @@
 
 - Nodes: Web Pages.
 - Edges: Hyperlinks Between Pages.
+- Links, Keywords and Ratings.
+
+#### Collecting Web Graphs
+
+- Web Graphs are collected by crawling the web.
+- Do a random walk on the web graph to collect data.
+
+#### Find Most Important Pages
+
+##### Equal Coin Distribution:
+
+- All are given same number of coins first.
+- When one page is linked to another, the coins are distributed equally.
+- After a while, the coins will be distributed based on the number of links.
+- The page which has the most coins is the most important page.
+
+##### Random Walk Coin Distribution:
+
+- Start with a random page.
+- Randomly walk to the next page based on the links and give it a coin.
+- Repeat this process for a large number of steps.
+- The page which has the most coins is the most important page.
+- The distribution shown here is Power Law Distribution.
+- Emergence of Inequality in Distribution of Coins over time.
+- If we reach a dangling node, we will not be able to get out of it.
+- To avoid this, we can use a teleportation factor (move to a random page with a certain probability).
 
 ### Grivan-Newman Algorithm
 
@@ -62,6 +88,7 @@
 ### Spatial Segregation
 
 - The tendency of individuals to associate with others who are similar to them in some way.
+- Increase in tolerance threshold will lead to decrease in segregation.
 
 #### Shelling's Model
 
