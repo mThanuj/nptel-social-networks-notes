@@ -63,7 +63,7 @@
 
 - The tendency of individuals to associate with others who are similar to them in some way.
 
-### Shelling's Model
+#### Shelling's Model
 
 - A model that simulates the segregation of individuals in a social network.
 - It is based on the idea that individuals have a preference for living near others who are similar to them.
@@ -73,6 +73,20 @@
   - Allow individuals to move to different locations based on their preferences.
   - Repeat until no one wants to move.
 - Local decision making will lead to global segregation.
+
+### Structural Balance Theory
+
+- I have two friends, and they dont like each other.
+- Then I can convince both of them to be friends.
+- If they dont become friends, then I will be friends with one of them and not the other.
+
+#### Balance Theorem
+
+- Only two sides will be present when fighting.
+- When another is added, they will be forced to choose a side.
+- Onlt two structurally balanced states are possible:
+  - All positives.
+  - Positive- Negative -Positive.
 
 ## Closures
 
@@ -140,10 +154,3 @@
   $$
   Homophily Index = \frac{\text{No of similar connections}}{\text{Total connections}}
   $$
-
-  where:
-
-  - $i$ and $j$ are the nodes.
-  - $\text{edges}$ is the number of edges between the two nodes.
-  - $\text{degree}(i)$ is the degree of node $i$.
-  - $\text{degree}(j)$ is the degree of node $j$.
