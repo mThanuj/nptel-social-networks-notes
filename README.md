@@ -133,6 +133,27 @@
 - The idea that individuals in a social network will continue to improve their connections until they reach a stable state.
 - A points to B, if A gains popularity, B will also gain popularity and vice versa.
 
+### Milgram's Experiment
+
+- The small world phenomenon.
+- The idea that individuals in a social network are connected by a small number of links.
+- It shows that any two people in the world are connected by an avarage of six degrees of separation.
+- The limitations of the experiment are:
+  - The sample size was small (only in USA).
+  - Many people did not respond to the letters.
+  - Network was not random.
+
+### Watts-Strogatz Model
+
+- A model that simulates the small world phenomenon.
+- It is based on the idea that individuals in a social network are connected by a small number of links.
+- It works by starting with a regular graph and randomly rewiring some of the edges.
+- The model has three parameters:
+  - N: Number of nodes.
+  - K: Number of neighbors.
+  - P: Probability of rewiring an edge.
+- The model shows that a small number of random connections can lead to a small world network.
+
 ## Closures
 
 ### Triad Closure
