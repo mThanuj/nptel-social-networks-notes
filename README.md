@@ -154,6 +154,11 @@
   - P: Probability of rewiring an edge.
 - The model shows that a small number of random connections can lead to a small world network.
 
+### Kleinberg's Model
+
+- It is a model of decentralized search in a social network.
+- Links following a power law distribution with distance enables efficient search.
+
 ## Closures
 
 ### Triad Closure
